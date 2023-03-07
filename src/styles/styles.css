@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
-  color: #121212;
+  color: #fff;
 }
 
 p {
@@ -36,6 +36,7 @@ p {
 }
 
 .carousel-control-next-icon {
+  position: relative;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
@@ -43,12 +44,35 @@ p {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
+.carousel-title {
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#slider,
+.wrap,
+.slide-content {
+  max-width: 110%;
+  position: relative;
+  margin: auto;
+}
+
 .fa-solid {
   color: #121212;
 }
 
+.carousel-position {
+  width: 15rem;
+  position: relative;
+  left: 2rem;
+}
+
 .me-auto {
   flex-direction: row;
+}
+
+.nav-link {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
