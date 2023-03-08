@@ -13,15 +13,13 @@ export const ControlledCarousel = () => {
     <Carousel activeIndex={index} onSelect={handleSelect}>
     
       <Carousel.Item>
-      <div className='d-flex flex-row justify-content-center carousel-position'>
+      <div className='d-flex flex-row align-bottom carousel-position'>
         <NavLink
           to="/"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Home
+          }>Home
         </NavLink>
      </div>
       </Carousel.Item>
