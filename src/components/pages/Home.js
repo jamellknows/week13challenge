@@ -8,8 +8,8 @@ export const Home = () => {
         <Container className="container-flex justify-content-center">
         <Row>
             <Col className='mt-5'>
-                <h1>Profile description</h1>
-                <p></p>
+                <h1>About Me</h1>
+                <p>Hello! My name is Jamell</p>
             </Col>
             <Col>
                 <h1 className='text-center'>Home</h1>

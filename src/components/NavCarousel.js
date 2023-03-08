@@ -13,7 +13,7 @@ export const ControlledCarousel = () => {
     <Carousel activeIndex={index} onSelect={handleSelect}>
     
       <Carousel.Item>
-      <div className='d-flex flex-row align-bottom carousel-position'>
+      <div className='d-flex flex-row align-bottom'>
         <NavLink
           to="/"
           end
@@ -24,7 +24,7 @@ export const ControlledCarousel = () => {
      </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='d-flex flex-row align-bottom carousel-position'>
+      <div className='d-flex flex-row align-bottom'>
         <NavLink
           to="project-gallery"
           className={({ isActive }) =>
@@ -36,7 +36,7 @@ export const ControlledCarousel = () => {
       </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='d-flex flex-row align-bottom carousel-position'>
+      <div className='d-flex flex-row align-bottom'>
       <NavLink
           to="contact"
           end
