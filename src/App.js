@@ -8,23 +8,19 @@ import {Banner} from './components/Banner'
 
 function App() {
   return (
-   <>
-   <Router>
-   <div>
-   <NavBar/>
+    <Router>
+    <div>
+    <NavBar/>
     <Routes>
       <Route path="/" element={<Banner />} />
-      <Route path="project-gallery" element={<ProjectGallery />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="project-gallery" element={<ProjectGallery/>} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     <Footer/>
     </div>
    </Router>
    
-   
 
-    
-   </>
   );
 }
 

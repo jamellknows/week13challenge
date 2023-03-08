@@ -23,7 +23,7 @@ export const NavBar = () => {
         <Container className="container-fluid">
         <Row className="w-100">
         <Col className="align-items-center">
-        <Navbar.Brand className="text-center mt-3" href="#home">
+        <Navbar.Brand className="text-center mt-3" href="/">
         <i className="fa-sharp fa-regular fa-binary-lock fa-2xl "></i>
         </Navbar.Brand>
         </Col>
@@ -37,9 +37,9 @@ export const NavBar = () => {
         <Col className="w-100 float-end text-end ms-auto">
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href="https://www.linkedin.com/in/jamell-ivan-samuels/"><i className="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/jamellknows"><i className="fa-brands fa-github"></i></a>
-                <a href="https://www.researchgate.net/profile/Yajudah-John-Jamell-Samuels-Elnathan"><i className="fa-brands fa-researchgate"></i></a>
+                <a href="https://www.linkedin.com/in/jamell-ivan-samuels/"><i className="fa-brands fa-linkedin-in fa-2xl"></i></a>
+                <a href="https://github.com/jamellknows"><i className="fa-brands fa-github fa-2xl"></i></a>
+                <a href="https://www.researchgate.net/profile/Yajudah-John-Jamell-Samuels-Elnathan"><i className="fa-brands fa-researchgate fa-2xl"></i></a>
             </div>
             <button className="vvd" onClick={() => {console.log('connect')}}><span>Let's Connect</span></button>
           </span>
