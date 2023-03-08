@@ -37,9 +37,9 @@ export const NavBar = () => {
         <Col className="w-100 float-end text-end ms-auto">
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i className="fa-brands fa-github"></i></a>
-                <a href="#"><i className="fa-brands fa-researchgate"></i></a>
+                <a href="https://www.linkedin.com/in/jamell-ivan-samuels/"><i className="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/jamellknows"><i className="fa-brands fa-github"></i></a>
+                <a href="https://www.researchgate.net/profile/Yajudah-John-Jamell-Samuels-Elnathan"><i className="fa-brands fa-researchgate"></i></a>
             </div>
             <button className="vvd" onClick={() => {console.log('connect')}}><span>Let's Connect</span></button>
           </span>
