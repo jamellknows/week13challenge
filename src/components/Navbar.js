@@ -2,10 +2,18 @@ import { Container, Navbar, Nav, Col} from 'react-bootstrap';
 import Row from 'react-bootstrap/Row'
 import { useState, useEffect } from 'react';
 import {ControlledCarousel} from './NavCarousel';
+import {Connect} from '../components/Modal'
+
+
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     
     useEffect(() => {
         const onScroll = () => {
@@ -41,7 +49,7 @@ export const NavBar = () => {
                 <a href="https://github.com/jamellknows"><i className="fa-brands fa-github fa-2xl"></i></a>
                 <a href="https://www.researchgate.net/profile/Yajudah-John-Jamell-Samuels-Elnathan"><i className="fa-brands fa-researchgate fa-2xl"></i></a>
             </div>
-            <button className="vvd" onClick={() => {console.log('connect')}}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={() => {handleShow}}><span>Let's Connect</span></button>
           </span>
         </Col>
           </Row>
