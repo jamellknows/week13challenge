@@ -37,6 +37,11 @@ p {
   color: #fff;
 }
 
+.carousel img {
+  min-height: 700px;
+  max-height: 700px;
+}
+
 .carousel-control-next-icon {
   position: relative;
   left: 3rem;
@@ -51,6 +56,11 @@ p {
 
 .fa-binary-lock {
   margin-top: 2rem;
+}
+
+.email {
+  font-family: var(--body-font);
+  font-size: 2rem;
 }
 
 #slider,
@@ -72,6 +82,7 @@ p {
 }
 
 .navbar-text {
+  margin-left: -30px;
   display: flex;
   flex-direction: row-reverse;
 }

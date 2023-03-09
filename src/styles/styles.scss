@@ -17,6 +17,7 @@ html{
     scroll-padding-top: 75px;
 }
 
+
 body{
     font-weight: 400;
     overflow-x: hidden;
@@ -41,6 +42,11 @@ p{
     color: #fff;
 }
 
+.carousel img{
+  min-height: 700px;
+  max-height: 700px;
+}
+
 
 .carousel-control-next-icon {
     position:relative;
@@ -58,6 +64,10 @@ p{
   margin-top: 2rem;
 }
 
+.email{
+  font-family: var(--body-font);
+  font-size: 2rem;
+}
 
 #slider,
 .wrap,
@@ -80,6 +90,7 @@ p{
 }
 
 .navbar-text{
+  margin-left: -30px;
   display: flex;
   flex-direction: row-reverse;
 }
