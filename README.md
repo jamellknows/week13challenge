@@ -19,7 +19,7 @@
   jamellknows.github.io/week13challenge
   ---
   ## Usage 
-  jamellknows.github.io/week13challenge
+  https://main.d3r7ph38xbrfi4.amplifyapp.com/
   ---
   ## License 
   undefined
