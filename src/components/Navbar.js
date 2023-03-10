@@ -49,7 +49,7 @@ export const NavBar = () => {
                 <a href="https://github.com/jamellknows"><i className="fa-brands fa-github fa-2xl"></i></a>
                 <a href="https://www.researchgate.net/profile/Yajudah-John-Jamell-Samuels-Elnathan"><i className="fa-brands fa-researchgate fa-2xl"></i></a>
             </div>
-            <button className="vvd" onClick={() => {handleShow}}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={() => {console.log('Connect')}}><span>Let's Connect</span></button>
           </span>
         </Col>
           </Row>
